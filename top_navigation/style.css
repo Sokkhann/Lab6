@@ -1,0 +1,43 @@
+main{
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.top_nav{
+    display: flex;
+    font-size: 27px;
+    background-color: #333;
+}
+
+.top_nav a {
+    padding: 0.3rem;
+    width: 6rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.top_nav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.home{
+    background-color:#04AA6D;
+}
+
+.content{
+    margin-left: 1.2rem;
+}
+
+@media screen and (max-width: 550px) {
+    .top_nav{
+        flex-direction: column;
+    }
+
+    .top_nav a{
+        text-align: start;
+        padding-left: 0.9rem;
+        width: 100%;
+    }
+}

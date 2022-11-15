@@ -1,0 +1,24 @@
+.wrapper{
+    display: flex;
+    column-gap: 0.3rem;
+
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    row-gap: 0.3rem;
+}
+
+@media screen and (max-width:550px){
+    .wrapper{
+        flex-direction: column;
+        row-gap: 0.3rem;
+    }
+
+    .column{
+        width: 100%;
+
+    }
+}
